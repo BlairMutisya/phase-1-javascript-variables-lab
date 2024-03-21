@@ -36,3 +36,12 @@ describe('index.js', function () {
     });
   });
 });
+describe('mostProfitableNeighborhood', function () {
+  it('is declared as equal to Chelsea', function () {
+    expect(mostProfitableNeighborhood).to.equal('Chelsea');
+  });
+
+  it('is defined using let', function () {
+    expect(js).to.match(/let mostProfitableNeighborhood/, "Expected mostProfitableNeighborhood to be defined using let");
+  });
+});
